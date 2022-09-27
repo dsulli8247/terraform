@@ -1,6 +1,6 @@
 terraform {
     # adding the azure provider here
-    required_version {
+    required_providers {
         azurerm = {
             source = "hashicorp/azurerm"
             version = "=2.91.0"
